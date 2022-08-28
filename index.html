@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Client</title>
+  <title>form</title>
   <!-- View-port Basics: http://mzl.la/VYREaP -->
   <!-- This meta tag is used for mobile device to display the page without any zooming,
        so how much the device is able to fit on the screen is what's shown initially. 
@@ -24,12 +24,40 @@
   <div class="container">
     <!--header section start-->
     <header>
-      
+      <h1>sign up form</h1>
     </header>
     <!--header section start-->
     <!--main section start-->
     <main>
-
+     <div class="wrapper">
+      <div class="sign-form-block">
+        <form action="#FIXME" class="sign-form">
+          <ul class="fields">
+            <li class="field">
+              <div class="input">
+                <input type="text" name="user-name" placeholder="enter  name">
+              </div>
+              <span class="error">e</span>
+            </li>
+            <li class="field">
+              <div class="input">
+                <input type="email" name="email" placeholder="enter  email">
+              </div>
+              <span class="error">e</span>
+            </li>
+            <li class="field">
+              <div class="input">
+                <input type="text" name="phone" placeholder="enter phone number">
+              </div>
+              <span class="error">e</span>
+            </li>
+            <li class="field">
+                <input type="submit" name="submit-btn"value="sign up" class="btn sign-btn">
+            </li>
+          </ul>
+        </form>
+      </div>
+     </div>
     </main>
     <!--main section end-->
 
